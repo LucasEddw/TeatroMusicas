@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body audio {
+  position: absolute;
+  top: 30%;
+  scale: 2;
+}
+body main {
+  position: absolute;
+  bottom: 5%;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 300px;
+  gap: 50px;
+}
+body main div {
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.JohnCena {
+  background-image: url(../img/JohnCena.jpg);
+}
+
+.OhNeymar {
+  background-image: url(../img/OhNeymar.jpg);
+}
+
+.TemaAcao {
+  background-image: url(../img/TemaAcao.jpg);
+}/*# sourceMappingURL=style.css.map */
